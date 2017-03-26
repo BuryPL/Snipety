@@ -1,0 +1,29 @@
+body,html {
+    height: 100%;
+}
+
+.content {
+    font-size: 40px;
+    background-color: aqua;
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+.parallax2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+.parallax3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
