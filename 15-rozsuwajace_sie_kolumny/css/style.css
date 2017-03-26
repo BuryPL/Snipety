@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.zewn {
+    width: 100%;
+    font-size: 0;
+}
+
+.wewn {
+    display: inline-block;
+    width: 25%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s linear;
+}
+
+.wewn:hover {
+    width: 40%;
+}
+
+.zewn:hover .wewn:not(:hover) {
+    width: 20%;
+}
+
+.wewn_pic1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+.wewn_pic2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+.wewn_pic3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+.wewn_pic4 {
+    background-image: url(../img/portfolio4.jpg);
+}
